@@ -1,0 +1,595 @@
+/* shree Ganeshay namah */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    /* background-color: gray; */
+    /* overflow: hidden; */
+    
+}
+
+.container{
+    width: 100%;
+    /* position: relative; */
+    
+}
+
+.navbar{
+    
+    width: 100%;
+    height: 150px;
+    /* background-color: rgb(69, 68, 68); */
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+.left_side{
+    width: 86px;
+    height: 105px;
+    /* border: 1px solid; */
+    /* position: absolute; */
+    margin-top: 20px;
+    margin-left: 45px;
+    z-index: 1;
+}
+.left_side img{
+    width: 100%;
+    height: 87px;
+}
+.right_side{
+    width: 270px;
+    height: 145px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    z-index: 1;
+}
+.logo img{
+    width: 100%;
+    height: 143px;
+}
+
+.icons{
+    width: 50px;
+    height: 200px;
+    /* border: 1px solid; */
+    position: absolute;
+    right: 10px;
+    top: 200px;
+}
+
+.icons li{
+    list-style-type: none;
+    padding-top: 30px;
+    
+}
+
+.icons li img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.slider{
+    height: 525px;
+    width: 100%;
+   /* border: 1px solid; */
+   position: absolute;
+   /* background-color: gray; */
+   overflow: hidden;
+   
+   
+}
+
+#slide{
+    width: 100%;
+    display: inline-flex;
+}
+#slide img{
+    width: 100%;
+}
+.indicators{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+.indicators span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,.5);
+    cursor: pointer;
+    
+}
+
+.ice-cream{
+    /* border: 1px solid; */
+    /* height: 500px; */
+    position: relative;
+    top: 375px;
+    background: #fffcef;
+}
+
+.flavours{
+    padding: 50px 5% 20px 5%;
+    border-bottom: 1px solid #929292;
+}
+
+.flavours ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.flavours h1{
+    color : red;
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin: 1% 0 20px 0;
+}
+
+.flavours h1 span{
+    display: block;
+    margin: 1% 33% 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    line-height: 100%;
+    text-align: right;
+    color: black;
+}
+
+.flavours ul li{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    /* padding: 0px 1%; */
+    
+}
+.flavours ul li p{
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.flavours ul li img{
+    max-width: 100%;
+}
+
+.best_seller{
+    position: relative;
+    top: 375px;
+    /* margin-top: 27%; */
+}
+
+.seller h1{
+    color : red;
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+    line-height: 70%;
+    text-align: center;
+    margin: 1% 0 20px 0;
+}
+
+.seller h1 span{
+    /* display: block;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    line-height: 100%;
+    text-align: right;
+    margin-right: 37%; */
+
+    display: block;
+    margin: 0 42% 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    line-height: 100%;
+    text-align: right;
+    color: black;
+}
+
+
+.seller{
+    /* border: 1px solid; */
+    background: #fffcef;
+    padding: 50px 5%;
+}
+
+.seller ul li img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.seller ul{
+    display: flex;
+    list-style-type: none;
+
+    /* background: #fffcef; */
+    padding: 0px 2%;
+    /* border-bottom: 1px solid #929292; */
+    
+}
+
+.seller ul li{
+    width: 25%;
+    padding: 0px 2%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.seller ul li p{
+text-transform: uppercase;
+font-size: 16px;
+margin-top: 15px;
+}
+
+.seller .buybtn{
+    background: #ef000f;
+    width: 145px;
+    text-decoration: none;
+    padding: 10px 0;
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.know-us{
+    position: relative;
+    top: 376px;
+}
+
+.bg{
+    /* background: url(../Images/home-bg-img.webp)left top repeat;
+    background-size: cover; */
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.bg img{
+    width: 100%;
+}
+
+.pro_info{
+    width: 100%;
+    position: relative;
+}
+
+.pro_info .heading{
+    position: absolute;
+    left: 550px;
+    top: -480px;
+}
+
+.pro_info .heading h2{
+    color: white;
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.pro_info .heading h2 span{
+    
+    display: block;
+    margin: 2% 0 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    line-height: 100%;
+    text-align: right;
+    color: white;
+}
+
+.pro_info .top-info1{
+    position: absolute;
+    top: -355px;
+    left: 125px;
+}
+
+.pro_info .top-info1 img{
+    margin-left: 25px;
+}
+
+.pro_info .top-info1 h4{
+    margin-top: 25px;
+    color: white;
+    font-size: 1.7em;
+    letter-spacing: 2px;
+}
+
+.pro_info .top-info2{
+    position: absolute;
+    top: -355px;
+    left: 800px;
+}
+
+.pro_info .top-info2 img{
+    margin-left: 10px;
+}
+
+.pro_info .top-info2 h4{
+    margin-top: 25px;
+    color: white;
+    font-size: 1.7em;
+    letter-spacing: 2px;
+}
+
+.pro_info .top-info3{
+    position: absolute;
+    top: -355px;
+    left: 1150px;
+}
+
+.pro_info .top-info3 img{
+    margin-left: -10px;
+}
+
+.pro_info .top-info3 h4{
+    margin-top: 25px;
+    color: white;
+    font-size: 1.7em;
+    letter-spacing: 2px;
+}
+
+.pro_info .bottom-info1{
+    position: absolute;
+    top: -120px;
+    left: 95px;
+}
+
+.bottom-info1{
+    text-align: center;
+}
+
+
+.pro_info .bottom-info2{
+    position: absolute;
+    top: -120px;
+    left: 720px;
+}
+
+.bottom-info2{
+    text-align: center;
+}
+
+
+.pro_info .bottom-info3{
+    position: absolute;
+    top: -120px;
+    left: 1060px;
+}
+
+.bottom-info3{
+    text-align: center;
+}
+
+.top-box p{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    /* line-height: 1.5rem; */
+} 
+
+.top-box .buybtn{
+    background: #ef000f;
+    width: 145px;
+    text-decoration: none;
+    padding: 10px 0;
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    border-radius: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.surprise{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid; */
+    position: relative;
+    top: 420px;
+}
+
+.left{
+    width: 40%;
+    padding: 50px;
+}
+
+.left h3{
+    color : red;
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+    line-height: 70%;
+    /* text-align: center; */
+    margin: 1% 0 20px 0;
+}
+
+.left h3 span{
+    display: block;
+    margin: 1% 45% 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    line-height: 100%;
+    text-align: right;
+    color: black;
+}
+
+.left p{
+    font-size: 15px;
+    padding: 15px 0;
+       
+}
+
+.right{
+    width: 60%;
+    padding: 30px 0;
+    border-radius: 20px;
+    /* display: flex; */
+    box-shadow: -3px 0px 38px -9px rgb(0 0 0 / 53%);
+    margin-right: 30px;
+}
+
+.form-field{
+    padding-top: 8px;
+    
+    width: 55%;
+    /* border: 1px solid; */
+    /* float: left; */
+}
+
+.form{
+    width: 100%;
+    padding-left: 35px;
+}
+.form input, select{
+    width: 100%;
+    padding: 8px 20px;
+    font-size: 1.2rem;
+    border: none;
+    background: #ebebeb;
+    border-radius: 15px;
+    color: black;
+} 
+
+.form-field button{
+    background: #ef000f;
+    width: 100px;    
+    padding: 10px 0;
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    border-radius: 25px;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.right .image{
+    width: 20%;
+    /* height: 200px; */
+    position: absolute;
+    bottom: -4px;
+    right: 027px;
+    float: right;
+    transform: skewY(0deg);
+}
+
+.right img{
+    max-width: 100%;
+    /* height: 270px; */
+    fill: red;
+    
+}
+
+
+footer{
+    float: left;
+    width: 100%;
+    position: relative;
+    top: 480px;
+    color: black;
+    background: #de2138;
+    padding: 40px 40px;
+}
+
+.footer-wrap{
+    width: 95%;
+    /* position: relative; */
+    margin: 0 auto;
+}
+
+footer .footer-wrap .footer-col{
+    width: auto;
+    float: left;
+    padding-right: 6%;
+}
+
+.footer-col2 p{
+    margin-top: 20px;
+}
+
+.footer-col h4{
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-col ul{
+    list-style-type: none;
+}
+
+.footer-col ul li{
+    margin-bottom: 10px;
+}
+.footer-col ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+footer .footer-wrap .footer-col2{
+    width: auto;
+    float: left;
+}
+
+.footer-col2 .address{
+    float: right;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 8px 0;
+}
+
+.footer-col2 .address h3{
+    color: white;
+    font-size: 1rem;
+   
+}
+
+.footer-col2 .customer-care p{
+    padding-top: 18px;
+}
+
+.footer-col2 .customer-care h4{
+    color: white;
+    
+}
+
+.footer-col2 ul{
+    list-style-type: none;
+    margin-top: 40px;
+    position: relative;
+}
+
+.footer-col2 ul li{
+    display: inline-block;
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+   
+}
+
+.footer-col2 ul li i{
+    height: 41px;
+    width: 41px;
+    display: block;
+    color: white;
+    position: relative;
+    top: -10px;
+    right: 20px;
+    font-size: 20px;
+}
