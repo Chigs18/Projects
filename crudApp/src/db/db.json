@@ -1,0 +1,32 @@
+{
+  "details": [
+    {
+      "id": 1,
+      "name": "Tops",
+      "email": "tops@gmail.com",
+      "phone": 1234567890,
+      "country": "India"
+    },
+    {
+      "name": "demo",
+      "email": "demo@gmah.jdhj",
+      "phone": "4489749384",
+      "country": "uik",
+      "id": 2
+    },
+    {
+      "name": "dsdf",
+      "email": "dfd@dfdf.dfd",
+      "phone": "df343434",
+      "country": "dfdf",
+      "id": 3
+    },
+    {
+      "name": "djfhsk",
+      "email": "kfhsf@jkhk.sfs",
+      "phone": "234y824y8",
+      "country": "kjhsfkhskfhskf",
+      "id": 4
+    }
+  ]
+}
